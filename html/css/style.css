@@ -1,0 +1,392 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  vertical-align: top;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+span,
+a,
+img {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  margin: 0 -15px;
+}
+#header {
+  display: inline-block;
+  padding: 40px 0;
+  width: 100%;
+  background-color: #e36024;
+}
+.col-header {
+  float: right;
+  padding: 0 15px;
+  width: 100%;
+}
+.header ul {
+  float: right;
+}
+.header img {
+  padding: 0 10px;
+}
+.header ul li i {
+  padding: 0 10px;
+}
+.header ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.header ul li a {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#aspire {
+  display: inline-block;
+  padding: 40px 0;
+  width: 100%;
+}
+.col-aspire {
+  padding: 0 15px;
+  float: left;
+  width: 30%;
+}
+.aspire {
+  width: 100%;
+}
+
+.col-menu {
+  float: left;
+  padding: 0 15px;
+  width: 40%;
+}
+.menu {
+  width: 100%;
+}
+.menu ul {
+  padding: 25px 0;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.menu ul li a {
+  color: #737373;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.menu fa-caret-down {
+  stroke-width: 1px;
+  stroke: #6fd6cc;
+}
+.col-button {
+  padding: 0 15px;
+  float: left;
+  width: 30%;
+}
+.button {
+  padding: 25px 0;
+  width: 100%;
+}
+.but {
+  color: #fff;
+  font-family: Sunflower;
+  font-size: 14.286px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 2px;
+  background: #f37423;
+  padding: 2px 10px;
+}
+.but:hover {
+  color: red;
+  background-color: rgb(244, 240, 240);
+}
+.button button {
+  padding: 2px 10px;
+}
+.button button:hover {
+  color: red;
+  background-color: rgb(244, 240, 240);
+}
+#banner {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+#banner img {
+  width: 100%;
+}
+.col-banner {
+  width: 100%;
+  padding: 0 15px;
+  float: left;
+}
+.banner-up {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  max-width: 1140px;
+}
+.banner h1 {
+  color: #fff;
+  font-family: Sunflower;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113.623%; /* 45.449px */
+}
+.banner p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.5%; /* 32.52px */
+  max-width: 575px;
+  padding: 10px;
+}
+.banner button {
+  color: #fff;
+  font-family: Sunflower;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96.623%; /* 17.392px */
+  border-radius: 5px;
+  background: #f37423;
+  padding: 17px 40px;
+  border: none;
+}
+.banner button:hover {
+  color: red;
+  background-color: rgb(244, 240, 240);
+}
+#different {
+  padding: 60px 0;
+  display: inline-block;
+  width: 100%;
+}
+.col-different {
+  width: 100%;
+  padding: 0 15px;
+  float: left;
+}
+.different h4 {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: Sunflower;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96.623%; /* 34.784px */
+}
+.different p {
+  color: #848484;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.5%; /* 22.23px */
+}
+.col-diff {
+  padding: 0 15px;
+  float: left;
+  width: 33.33%;
+}
+.diff {
+  padding: 40px 0;
+  width: 100%;
+}
+.diff img {
+  width: 100%;
+}
+.diff h5 {
+  color: #3e3e3e;
+  font-family: Sunflower;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96.623%; /* 17.392px */
+  letter-spacing: 0.36px;
+  padding: 10px 0;
+}
+.diff span {
+  color: #848484;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.128px; /* 147.52% */
+  text-align: center;
+}
+#raining {
+  padding: 60px 0;
+  display: inline-block;
+  width: 100%;
+}
+.col-training {
+  width: 100%;
+  padding: 0 15px;
+  float: left;
+}
+.training h4 {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: Sunflower;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96.623%; /* 34.784px */
+}
+.training p {
+  color: #848484;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.5%; /* 22.23px */
+}
+.col-train {
+  padding: 0 15px;
+  float: left;
+  width: 33.33%;
+}
+.train {
+  padding: 40px 0;
+  width: 100%;
+}
+.train img {
+  width: 100%;
+}
+.train h5 {
+  color: #3e3e3e;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 0;
+}
+.train span {
+  color: #848484;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.128px; /* 147.52% */
+  text-align: left;
+}
+#footer {
+  padding: 40px 0;
+  display: inline-block;
+  background-color: #2a2d34;
+  width: 100%;
+}
+.footer-logo {
+  width: 40%;
+  padding: 0 15px;
+  float: left;
+}
+.logo {
+  width: 100%;
+}
+.logo p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.5%; /* 19.76px */
+  padding: 10px 0;
+  max-width: 300px;
+}
+.footer-menu {
+  width: 20%;
+  float: left;
+  padding: 0 15px;
+}
+.men {
+  width: 100%;
+}
+.men h6 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.men ul li {
+  padding: 7px px;
+}
+.men ul li a {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px; /* 159.375% */
+}
+.men img {
+  cursor: pointer;
+}
+.f-line {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+}
+.line h4 {
+  color: #cdcdcd;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 81.25% */
+}
+#f-line {
+  padding: 40px 0;
+  display: inline-block;
+  background-color: #2a2d34;
+  width: 100%;
+  border-top: 1px solid #204acb;
+}
